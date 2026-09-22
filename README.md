@@ -2,7 +2,7 @@
 
 A beginner-friendly project for learning how to use AI to organize workouts, goals, schedules, and progress notes with simple text files.
 
-> **Start here:** this public repository is a starter/learning project. **Do not put your real personal, medical, school, contact, or health information in this public repository.** Make a **private copy** for your own use.
+> **Start here:** this public repository is a starter/learning project. You can use it three ways: **(1) make a public fork for experimenting or contributing, (2) make a separate private GitHub copy for personal use, or (3) keep everything in a local folder on your own computer with no GitHub repository at all.** Never put real personal, medical, school, contact, or health information in a public fork or public repository.
 
 This guide is written for people who are new to AI, GitHub, and software development. You do **not** need to be a programmer.
 
@@ -23,21 +23,62 @@ This is a learning and organization tool. It is **not a doctor, physical therapi
 
 ---
 
-# The safest way to use this project
+# Choose how you want to use this project
 
-## Public starter vs. private personal copy
+There is no single required setup. Pick the option that fits what you are doing.
 
-The repository you are reading is public. Anyone on the internet may be able to see a public repository.
+## Option 1 — Public fork
 
-For your real project:
+A **fork** is your own GitHub copy that stays connected to this public starter.
 
-- Keep this public repository as the clean starter/example.
-- Create a **new private GitHub repository** for your own files.
-- Put personal training notes only in the private repository.
-- Do not fork this public repository for personal data. Public GitHub forks of public repositories are public.
-- Do not put passwords, API keys, home addresses, school addresses, phone numbers, full medical records, or other secrets in GitHub.
+Use a fork when you want to:
 
-For kids, a parent, guardian, teacher, or coach should help decide what information is appropriate to save.
+- experiment with the public project
+- suggest improvements
+- learn GitHub
+- keep your work connected to the original project
+
+**Important:** a fork of this public repository is also public. Do **not** put personal training records, health information, school information, addresses, private contact information, passwords, or API keys in the fork.
+
+This option is best for **sample/demo data and project contributions**, not a real person's private training record.
+
+## Option 2 — Separate private GitHub copy
+
+This is a good choice when you want:
+
+- private storage
+- GitHub's change history
+- access from more than one computer
+- easy backup/sync through GitHub
+- Codex to work with the repository through GitHub
+
+This copy should be a **new private repository, not a public fork**.
+
+## Option 3 — Local folder only (no GitHub)
+
+This is the simplest option if you want the files to live only on your computer.
+
+You can:
+
+1. Download the starter as a ZIP file.
+2. Unzip it into a normal folder such as `Documents/AI-Personal-Trainer`.
+3. Open that folder as a local project in a Codex-capable desktop/CLI/IDE workflow.
+4. Let the AI read and edit the Markdown files in that folder.
+5. Back up the folder yourself.
+
+You do **not** need a GitHub account, GitHub repository, web hosting, database, or domain for this option.
+
+The tradeoff is that GitHub will not automatically provide remote backup or web-based version history. You are responsible for backups. You can optionally use local Git later without ever publishing the folder to GitHub.
+
+## Which option should I choose?
+
+| Setup | Good for | Personal/private data? | GitHub required? |
+|---|---|---:|---:|
+| **Public fork** | Learning, demos, contributing back | **No** | Yes |
+| **Separate private GitHub copy** | Personal use with sync/history | Yes | Yes |
+| **Local folder only** | Personal use on one computer, simplest storage | Yes, if the computer is appropriately protected | **No** |
+
+For kids, a parent, guardian, teacher, or coach should help decide which option is appropriate and what information should be saved.
 
 ---
 
@@ -48,19 +89,19 @@ You can start with **$0**.
 | Item | Required? | Free option? | What it is |
 |---|---|---:|---|
 | Web browser | Yes | Yes | Chrome, Safari, Edge, Firefox, etc. |
-| GitHub account | Yes for the recommended setup | Yes | Stores the project files |
-| Private GitHub repository | Yes for personal use | Yes | Keeps personal files out of the public starter |
+| GitHub account | Only for the fork or GitHub-copy options | Yes | Stores/syncs project files online |
+| Private GitHub repository | Only for the private GitHub option | Yes | Keeps a personal GitHub copy private |
 | ChatGPT account | Yes for the AI workflow | Yes | Gives you access to ChatGPT and limited Codex usage |
 | Codex | Recommended | Included with ChatGPT plans, with limits that vary by plan | AI tool that can work on repository files |
 | GitHub Copilot | No | Optional | Not required for this project |
 | OpenAI API key | No | No need to buy API usage | Not required for the beginner setup |
-| Git, terminal, or command line | No | — | You can do the beginner setup in a browser |
-| VS Code or another code editor | No | — | Optional for advanced users |
+| Git, terminal, or command line | No for the browser/GitHub path; optional for local use | — | Local Git/Codex CLI is optional, not required by the project itself |
+| VS Code or another code editor | No | — | Optional; a local Codex/IDE workflow can use a normal folder |
 | Website hosting/domain | No | — | This project does not need to be deployed as a website |
 
 ### Free vs. paid
 
-**GitHub Free is enough** for this project and includes private repositories.
+If you choose a GitHub-based setup, **GitHub Free is enough** for this project and includes private repositories. If you choose the local-folder setup, you do not need GitHub at all.
 
 **ChatGPT Free can be used to get started with Codex**, but usage is limited. Paid ChatGPT plans are optional and mainly provide more usage and features.
 
@@ -136,11 +177,30 @@ You can think of it as the project's rulebook.
 
 ---
 
-# Beginner setup: browser-only method
+# Beginner setup
 
-This is the recommended path for people who are not software engineers.
+Choose **one** of the three paths below. You can switch later.
 
-## Step 1 — Create a GitHub account
+## Path A — Make a public fork
+
+Use this only for public examples, experiments, or contributing improvements back to the starter.
+
+1. Create or sign in to a GitHub account at https://github.com/signup
+2. Open this public starter repository.
+3. Click **Fork**.
+4. Create the fork under your GitHub account.
+5. Keep only sample/demo information in it.
+6. Never add real personal, health, school, address, account, or other sensitive information.
+
+Because the original repository is public, the fork is public too.
+
+---
+
+## Path B — Make a separate private GitHub copy
+
+Use this when you want personal files stored privately on GitHub.
+
+### Step B1 — Create a GitHub account
 
 1. Go to https://github.com/signup
 2. Create an account.
@@ -150,15 +210,11 @@ This is the recommended path for people who are not software engineers.
 
 You do not need a paid GitHub plan for this project.
 
----
-
-## Step 2 — Make a private personal repository
+### Step B2 — Create the private copy
 
 **Do not use a public fork for personal information.**
 
-### Option A — if this starter has a "Use this template" button
-
-If GitHub shows **Use this template**:
+If this starter has a **Use this template** button and GitHub lets you create a private repository from it:
 
 1. Click **Use this template**.
 2. Choose **Create a new repository**.
@@ -169,20 +225,67 @@ If GitHub shows **Use this template**:
 4. Choose **Private**.
 5. Create the repository.
 
-### Option B — if there is no template button
+If you do not see that option:
 
 1. On this public starter repository, click **Code**.
 2. Choose **Download ZIP**.
-3. Unzip the downloaded file on your computer.
+3. Unzip the downloaded file.
 4. Go to https://github.com/new
-5. Give the new repository a name.
+5. Create a new repository.
 6. Select **Private**.
-7. Create the repository.
-8. In the new repository, choose **Add file → Upload files**.
-9. Drag the starter files into the upload area.
-10. Save/commit the upload.
+7. In the new repository, choose **Add file → Upload files**.
+8. Upload the starter files.
+9. Save/commit the upload.
 
-If this public repository currently contains only this README, that is okay. The AI can create the starter folders in a later step.
+This private repository is a separate copy. It is not connected to the public repository as a fork.
+
+---
+
+## Path C — Use a local folder only (no GitHub)
+
+Use this when you want the project to live in ordinary file-system space on your computer.
+
+### Step C1 — Download the starter
+
+1. On this public repository, click **Code**.
+2. Choose **Download ZIP**.
+3. Find the ZIP file in your Downloads folder.
+4. Unzip/extract it.
+5. Move the extracted folder somewhere easy to find, for example:
+   - Windows: `Documents\\AI-Personal-Trainer`
+   - macOS: `Documents/AI-Personal-Trainer`
+6. Rename the folder if you want.
+
+At this point, the project is just a normal folder containing normal text files.
+
+### Step C2 — Make a backup plan
+
+Without GitHub, you are responsible for backups.
+
+A simple backup can be:
+
+- a second copy on an external drive
+- a computer backup system
+- a private cloud-storage folder that your parent/guardian, school, or organization approves
+
+Be careful with shared cloud folders. A local project can still become visible to other people if you save it inside a shared drive.
+
+### Step C3 — Let Codex work with the local folder
+
+For direct local-file editing, use a Codex workflow that can open a folder on your computer, such as the ChatGPT desktop/Codex local-project experience, Codex CLI, or a supported IDE integration.
+
+The basic idea is:
+
+1. Open the local project folder.
+2. Start Codex in that folder/project.
+3. Ask it to read `README.md` and `AGENTS.md`.
+4. Give it the setup prompt later in this guide.
+5. Review file changes before accepting them.
+
+You do **not** have to publish the folder to GitHub.
+
+OpenAI's current Codex CLI/local-project documentation:
+https://developers.openai.com/codex/cli
 
 ---
 
@@ -199,34 +302,40 @@ You do not need an OpenAI API key for the beginner workflow.
 
 ## Step 4 — Open Codex
 
-Codex is the part of OpenAI's tools designed to work directly with project files and repositories.
+Codex is the part of OpenAI's tools designed to work with project files.
 
-Depending on the device and account, Codex may appear in ChatGPT, the desktop app, a dedicated Codex experience, or another supported client.
+### If you chose the GitHub path
 
 1. Sign in with the same ChatGPT account.
 2. Open **Codex**.
 3. Choose the option to connect or work with GitHub.
 4. GitHub may ask you to authorize the OpenAI/ChatGPT GitHub app.
-5. Give it access to **only the private training repository you created**, unless you have a reason to share more.
-6. Select your private repository.
+5. For a private personal project, give it access to **only the private training repository you created**, unless you have a reason to share more.
+6. Select the correct repository.
 
-If the repository does not appear immediately, give GitHub a few minutes and check that the GitHub app has permission to access that repository.
+If the repository does not appear immediately, check that the GitHub app has permission to access it.
 
-OpenAI's GitHub connection guide is here:
+OpenAI's GitHub connection guide:
 
 https://help.openai.com/en/articles/11145903-connecting-github-to-chatgpt
 
-### Important: ChatGPT vs. Codex
+### If you chose the local-folder path
 
-The normal GitHub connection in ChatGPT is useful for **reading and discussing** repository files.
+Open the folder as a local project using a supported Codex desktop, CLI, or IDE workflow. Codex can then inspect and edit files in that local project without requiring the project to be hosted on GitHub.
 
-For actually creating, editing, and pushing repository files, use **Codex**.
+OpenAI's Codex CLI guide:
+
+https://developers.openai.com/codex/cli
+
+### Important: ChatGPT web vs. a local project
+
+A normal ChatGPT web project does not automatically gain access to arbitrary folders on your computer. For a filesystem-only setup, use a local Codex-capable workflow or manually upload the files you want ChatGPT to read.
 
 ---
 
 # Step 5 — Give the AI its first setup job
 
-If your private copy does not already contain starter folders, paste the following into Codex.
+If your private GitHub copy or local folder does not already contain starter folders, paste the following into Codex.
 
 ```text
 I am setting up a private AI-assisted personal training workspace.
@@ -483,8 +592,9 @@ Before saving a file, ask:
 - Does this contain a phone number or private email? Usually **do not save it.**
 - Does this contain a child's full legal name or date of birth? Avoid it unless truly necessary.
 - Does this contain medical information? Keep it private and share only what is necessary.
-- Is the repository definitely **Private**?
-- Am I comfortable with every person who has repository access seeing this information?
+- If I am using GitHub, is the personal repository definitely **Private**?
+- If I am using a local folder, is the computer/user account appropriately protected and backed up?
+- Am I comfortable with every person who can access this repository, folder, device, or backup seeing this information?
 
 A useful project does not need a large amount of personal information.
 
@@ -495,7 +605,7 @@ A useful project does not need a large amount of personal information.
 For a classroom, club, family, or youth program:
 
 1. Keep the public starter repository free of student information.
-2. Use private repositories for any individual information.
+2. Use private repositories or appropriately protected local folders for any individual information.
 3. Use initials, nicknames, or non-identifying labels when possible.
 4. Do not publish health information.
 5. Do not ask students to create accounts if they do not meet the service's age requirements.
@@ -525,7 +635,7 @@ The simplest beginner approach is to keep medical records out of this project.
 
 If an adult chooses to store health-related notes:
 
-- use a private repository
+- use a private repository or appropriately protected local folder
 - include only what is necessary
 - do not publish it
 - do not treat AI output as medical diagnosis or treatment
@@ -645,24 +755,20 @@ Using an API key is an advanced option with separate usage-based billing. Beginn
 
 # Do I need to install anything?
 
-Not for the browser-first setup.
+It depends on the path you choose.
 
-Later, advanced users may choose to install:
+- **Public fork or private GitHub copy:** you can do the repository setup in a browser.
+- **Local folder only:** the files themselves need no special software, but for AI to directly inspect and edit that folder you need a local Codex-capable workflow such as the desktop app, Codex CLI, or a supported IDE integration.
+- **Manual use:** Markdown files can also be opened in ordinary text editors.
 
-- Git
-- VS Code
-- ChatGPT desktop
-- Codex CLI
-- another code editor
-
-None of those are required to understand or begin using the project.
+Git, VS Code, and GitHub Copilot are optional. You do not need to turn the project into a website or install a database.
 
 ---
 
 # A good first-week learning path
 
 ### Day 1
-Create the private repository and connect it to Codex.
+Choose your setup: public demo fork, private GitHub copy, or local folder. Then open that project in Codex.
 
 ### Day 2
 Fill in goals, availability, equipment, and preferences.
@@ -700,14 +806,14 @@ Your `AGENTS.md` should eventually include rules like these:
 
 ---
 
-# Keeping your private copy updated
+# Keeping your personal copy updated
 
-Because your personal repository should be private and separate from the public starter, it may not automatically receive future starter improvements.
+A separate private repository or local-folder copy will not automatically receive future starter improvements. A public fork stays connected to the original project, but remember that the fork remains public.
 
 A safe update process is:
 
 1. Check the public starter for new instructions or example files.
-2. Ask Codex to compare the public starter with your private project.
+2. Ask Codex to compare the public starter with your private repository or local folder.
 3. Tell it **not to overwrite your profile, schedules, or logs**.
 4. Review proposed framework/instruction updates.
 5. Accept only the changes you understand and want.
@@ -735,6 +841,7 @@ Show me the proposed changes before applying them.
 - ChatGPT pricing: https://chatgpt.com/pricing/
 - Codex with a ChatGPT plan: https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan
 - Connect GitHub to ChatGPT: https://help.openai.com/en/articles/11145903-connecting-github-to-chatgpt
+- Codex CLI / local projects: https://developers.openai.com/codex/cli
 - OpenAI Terms: https://openai.com/policies/terms-of-use/
 
 ---
