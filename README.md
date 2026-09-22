@@ -1,5 +1,7 @@
 # AI Personal Trainer Starter
 
+**English** | [Русская версия](README.ru.md)
+
 A beginner-friendly project for learning how to use AI to organize workouts, goals, schedules, and progress notes with simple text files.
 
 > **Start here:** this public repository is a starter/learning project. You can use it three ways: **(1) make a public fork for experimenting or contributing, (2) make a separate private GitHub copy for personal use, or (3) keep everything in a local folder on your own computer with no GitHub repository at all.** Never put real personal, medical, school, contact, or health information in a public fork or public repository.
