@@ -1,0 +1,34 @@
+# Public starter allowlist: new root paths stay private until deliberately reviewed.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/README.ru.md
+!/START-HERE.md
+!/START-HERE.ru.md
+!/AGENTS.md
+!/CLAUDE.md
+!/agent.jsonl
+!/LICENSE
+!/docs/
+!/skills/
+!/templates/
+!/starter/
+!/scripts/
+!/tests/
+!/research/
+!/.github/
+!/.claude/
+
+# Applies at every depth, including inside otherwise public directories.
+personal/
+private/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db

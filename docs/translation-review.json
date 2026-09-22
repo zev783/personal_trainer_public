@@ -1,0 +1,22 @@
+{
+  "reviewed_on": "2026-09-22",
+  "scope": "Paired beginner guides, instructions and notebook prose reviewed; shared workflow and research sources remain English in both language bundles.",
+  "sha256": {
+    "README.md": "ab1d3aa0838af607ec20a00b0d9c71926c8978ba26c46929cac5a4a7cbc2a6d3",
+    "README.ru.md": "707947f940542fe89d78ff42baf8be80ee53a8a08da8edf860c586ab4cf220e4",
+    "START-HERE.md": "dd909b97f4ac3a55d6178552c269c132993feef7b0f36e983b4ec30202890e9c",
+    "START-HERE.ru.md": "66e62a2135ae2a0c9e674161d3701fee6107c37262124bff9e631f32e0e91eb1",
+    "docs/PROJECT-INSTRUCTIONS.txt": "c8d978c748b76313af2879130bef80ad82924678e4245d6c573436557b221ae6",
+    "docs/PROJECT-INSTRUCTIONS.ru.txt": "f1465724f0290f68a2fd6f6cf7a42322885b08e01eba55c899be7a6cc1468080",
+    "templates/MY-TRAINER.md": "62d710a0bd14fd6518ba943915f815f6ad32e714f92d000eb83821bfbd54565b",
+    "templates/MY-TRAINER.ru.md": "c835ebd2dd5cffabbacaf837f3ebecc11ce2ce8de3f6c14f604b669ba8392e68",
+    "docs/FAQ.md": "bb17a03278a86e41cfda331561a4741714e4400bee7e78d932be02e8795a9980",
+    "docs/FAQ.ru.md": "517a32c2e89001d57d806815a2a7256b8e401fe832889b0a5005ef7913b53f9d",
+    "docs/SAVING-YOUR-PROGRESS.md": "ae60c381b53a75c695da86f919a1f53a31ecc3cbc25aab67d0232d9e7a91a76a",
+    "docs/SAVING-YOUR-PROGRESS.ru.md": "25a948a30f95a6e09c91be5f9abd7ceaf2a9d0aeeae674580b8f731a3c56adb3",
+    "docs/PRIVACY.md": "b5ad062b3cdf5f88d46ec13ce163550e3a73161b5a230a9a3ca61c021697d994",
+    "docs/PRIVACY.ru.md": "f14adc918f6eb646d06d0a4d5403c1dc0f5e57ce1e408d426cf33fee13ea1a76",
+    "docs/ADVANCED-OPTIONS.md": "4226e2120309a396e10733ed57064acd2dc79c1065a890aebbf26ade02366f71",
+    "docs/ADVANCED-OPTIONS.ru.md": "78b608511363f8e360014c5a39fad94b5d72169eaf17f1361858ac07df4c22e9"
+  }
+}
